@@ -100,6 +100,7 @@ export default function Game() {
 
   return (
     <div className="game">
+      <h1>25 and im 45 now</h1>
       <div className="game-board">
         <Board squares={currentSquares} xIsNext={xIsNext} onPlay={handlePlay} />
       </div>
